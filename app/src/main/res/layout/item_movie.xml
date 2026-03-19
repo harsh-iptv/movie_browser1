@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Movie title - bold and large -->
+    <TextView
+        android:id="@+id/movieTitleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+
+    <!-- Release date -->
+    <TextView
+        android:id="@+id/movieReleaseDateText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_marginTop="4dp"
+        android:textColor="@android:color/darker_gray"/>
+
+    <!-- Rating out of 10 -->
+    <TextView
+        android:id="@+id/movieRatingText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_marginTop="4dp"
+        android:textColor="@android:color/darker_gray"/>
+
+    <!-- Vote count -->
+    <TextView
+        android:id="@+id/movieVoteCountText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_marginTop="4dp"
+        android:textColor="@android:color/darker_gray"/>
+
+    <!-- Language -->
+    <TextView
+        android:id="@+id/movieLanguageText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_marginTop="4dp"
+        android:textColor="@android:color/darker_gray"/>
+
+    <!-- Overview - max 3 lines -->
+    <TextView
+        android:id="@+id/movieOverviewText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:layout_marginTop="8dp"
+        android:maxLines="3"
+        android:ellipsize="end"
+        android:textColor="@android:color/darker_gray"/>
+
+</LinearLayout>
+
+
